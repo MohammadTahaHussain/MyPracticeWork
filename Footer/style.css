@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Quicksand:wght@500&display=swap');
+
+footer{
+    background-color: #ffb5a8;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;   
+    animation-duration: 2s;
+}
+
+footer h5{
+    padding-bottom: 20px;
+}
+
+footer .mini-nav{
+    display: flex;
+    justify-content: center;
+    color: #b56963;
+}
+
+footer .mini-nav p{
+    padding-left: 7px;
+    padding-right: 7px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+
+.flex-column a:hover{
+    position: relative ;
+    left: 5px;
+}
+
+footer .text-muted{
+    color: #8a585a !important;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.p-10{
+    padding-right: 10px;
+}
+
+.icon-tel{
+    margin-right:10px ;
+}
